@@ -9,6 +9,8 @@
 [Heroicons](https://heroicons.com) extension for [Phlex](https://github.com/joeldrapper/phlex). Includes all icons along with `solid` and `outline` variants found in Heroicons.
 
 ## Installation
+Add this line to your application's Gemfile:
+
 ```ruby
 gem 'phlex-heroicons'
 ```
