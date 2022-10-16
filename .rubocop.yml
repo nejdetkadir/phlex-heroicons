@@ -14,7 +14,7 @@ Style/StringLiteralsInInterpolation:
   EnforcedStyle: single_quotes
 
 Layout/LineLength:
-  Max: 120
+  Enabled: false
 
 Style/Documentation:
   Enabled: false
