@@ -38,7 +38,7 @@ Phlex::Heroicons.configuration.default_variant = :outline
 
 ## Usage
 ```ruby
-class Hello < Phlex::View
+class Hello < Phlex::HTML
   def initialize(name:)
     @name = name
   end
