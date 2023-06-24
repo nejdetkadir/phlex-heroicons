@@ -3,10 +3,10 @@
 # rubocop:disable Lint/MissingSuper
 module Phlex
   module Heroicons
-    class Base < Phlex::View
+    class Base < Phlex::SVG
       attr_reader :variant, :classes
 
-      def initialize(variant: Phlex::Heroicons.config.default_variant, classes: Phlex::Heroicons.config.default_class)
+      def initialize(variant: Phlex::Heroicons.configuration.default_variant, classes: Phlex::Heroicons.configuration.default_class)
         @variant = variant
         @classes = classes
       end

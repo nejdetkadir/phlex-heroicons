@@ -15,4 +15,4 @@ gem 'minitest', '~> 5.0'
 gem 'rubocop', '~> 1.21'
 
 # A high-performance view framework optimised for developer happiness [https://github.com/joeldrapper/phlex]
-gem 'phlex', '~> 0.4.0'
+gem 'phlex', '~> 1.8.0'
