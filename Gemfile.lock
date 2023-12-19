@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    phlex-heroicons (1.0.0)
+    phlex-heroicons (1.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -43,6 +43,7 @@ GEM
 PLATFORMS
   arm64-darwin-21
   arm64-darwin-22
+  arm64-darwin-23
 
 DEPENDENCIES
   minitest (~> 5.0)
