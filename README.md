@@ -43,7 +43,7 @@ class Hello < Phlex::HTML
     @name = name
   end
 
-  def template
+  def view_template
     div do
       render Phlex::Heroicons::HandRaised.new(variant: :solid, classes: 'h-4 w-4')
       h1 { "Hello #{@name}!" }
