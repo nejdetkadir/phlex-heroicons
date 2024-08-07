@@ -11,7 +11,7 @@ module Phlex
         @classes = classes
       end
 
-      def template
+      def view_template
         send(variant) if respond_to?(variant)
       end
     end
